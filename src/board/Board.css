@@ -1,0 +1,41 @@
+.board {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.set {
+  max-height: 1220px;
+  width: 65%;
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.game-log {
+  width: 34%;
+}
+
+.matched-pairs {
+  height: 40px;
+  padding-top: 20px;
+}
+
+.found-pairs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+span {
+  font-size: 30px;
+  font-family: sans-serif;
+  vertical-align: center;
+}

@@ -1,0 +1,13 @@
+.banner {
+  width: 800px;
+  height: 200px;
+  z-index: 500;
+  position: absolute;
+  left: 300px;
+  top: 200px;
+  background: white;
+  border: 1px solid black;
+  transform: rotate(-30deg);
+  color: black;
+  padding-top: 50px;
+}

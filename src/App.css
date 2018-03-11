@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.app-banner {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.title {
+  font-size: 30px;
+  font-family: sans-serif;
+}

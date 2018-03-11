@@ -1,0 +1,41 @@
+.card {
+  display: flex;
+  position: relative;
+  height: 120px;
+  width: 100px;
+  border-radius: 3px;
+  margin: 15px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.found {
+  cursor: default;
+  border: none;
+}
+
+.flipped {
+  box-shadow: -2px -3px 5px 0 rgba(0,0,0,.15);
+  border: 1px solid black;
+}
+
+.number-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.number-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.card-face {
+  align-self: center;
+  margin: 0 auto;
+}
