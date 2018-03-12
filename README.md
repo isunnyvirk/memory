@@ -3,7 +3,7 @@
 #### To Run
 ```
 yarn add
-yarn run
+yarn start
 
 or 
 
