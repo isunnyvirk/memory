@@ -1,6 +1,7 @@
 ### Memory
 
 #### To Run
-```yarn add
+```
+yarn add
 yarn run
 ```
